@@ -1,0 +1,154 @@
+@import url('reset.css');
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+}
+
+.header>section img {
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    gap: 32px;
+    margin: 0 24px;
+}
+
+.menu#youtube {
+    width: 90px;
+}
+
+.search-box {
+    width: 403px;
+    display: flex;
+}
+
+.search-box input {
+   width: 348px;
+   height: 40px;
+   margin: 8px 0;
+   border: 1px solid #CCCCCC;
+}
+
+.search-box div {
+    margin: 8px 0;
+    width: 57px;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+}
+
+.search-box div img {
+    padding: 8px 13px 11px 17px;
+}
+
+.perfil {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin: 0 24px;
+}
+
+.perfil #avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    background-color: #F9F9F9;
+}
+
+.video {
+    width: 70%;
+    padding-top: 28px;
+    padding-left: 75px;
+}
+
+.video>img {
+    width: 100%;
+}
+
+.videos {
+    display: flex;
+    width: 30%;
+    padding: 28px 16px 0 9px;
+}
+
+.informacoes {
+    display: flex;
+    gap: 42px;
+    margin: 17px 0;
+}
+
+.informacoes>div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.informacoes>div>img{
+    cursor: pointer;
+}
+
+.informacoes #canal {
+    gap: 12px;
+}
+
+.informacoes #inscricao button {
+    width: 159px;
+    height: 40px;
+    background: #CC0000;
+    color: #FFF;
+    text-transform: uppercase;
+    justify-content: center;
+    border: none;
+    border-radius: 2px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.video h2 {
+    margin: 16px 0;
+}
+
+.video #descricao {
+    line-height: 16px;
+    width: 510px;
+    color: #515151;
+}
+
+.videos ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.videos ul li {
+    display: flex;
+    cursor: pointer;
+}
+
+.videos ul li img {
+    margin: 0 16px 16px 16px;
+}
+
+.videos ul li div p {
+    font-size: 12px;
+}
+
+.videos ul li div .canal {
+    margin: 8px 0 7px 0;
+}
+
